@@ -21,22 +21,20 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Drone_Guard
-  m_Shader: {fileID: 4800000, guid: c611cf437f4f5274a8b836b217c99aab, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3c9c6ec4abac5554084ae520bf64d100, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
-  - _EMISSION
-  - _METALLICGLOSSMAP
   - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-  m_LightmapFlags: 2
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - GRABPASS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -100,6 +98,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AccelPow: 2.2
+    - _Alpha: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _AngleDeg: 35
@@ -107,33 +106,45 @@ Material:
     - _Bevel: 0.12
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
+    - _BlendOp: 0
     - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
     - _CapRound: 0.3
     - _CellSize: 3
     - _CheckerAmt: 0.054
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _CornerBoost: 0.6
+    - _ColorMode: 0
+    - _CornerBoost: 0.2
     - _Cull: 2
     - _Cutoff: 0.5
     - _Density: 22
+    - _DepthBias: 0.06
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
     - _DotDensity: 0.25
     - _DotSize: 0.02
     - _DotSoft: 0.02
     - _DropRate: 0.8
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EdgeWidth: 0.013
+    - _EdgeWidth: 0.0216
+    - _EmissionEnabled: 0
     - _EmissionStrength: 46
     - _EmitStrength: 9.18
     - _EnvironmentReflections: 1
+    - _FlipbookMode: 0
     - _FresnelPower: 4
     - _Gap: 0.2
     - _GapWidth: 0.32
     - _GlossMapScale: 1
-    - _GlossStrength: 0.55
+    - _GlossStrength: 2
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Glow: 1.4
@@ -143,23 +154,26 @@ Material:
     - _HeadBoost: 1.77
     - _HeightNoise: 1
     - _Intensity: 2.2
+    - _LightingEnabled: 0
     - _LineIntensity: 2
     - _LineWidth: 0.01
     - _Metallic: 0
     - _Mode: 0
     - _NoiseAmt: 0.15
     - _OcclusionStrength: 1
+    - _OutlineAlpha: 1
+    - _OutlineWidth: 0
     - _Parallax: 0.02
     - _PulseAmp: 1.2
-    - _PulseAmt: 0.3
-    - _PulseHz: 0.6
+    - _PulseAmt: 1
+    - _PulseHz: 0.03
     - _PulseMode: 0
     - _PulsePeriod: 8
     - _PulseSpeed: 1.1
     - _PulseWidth: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RimPower: 3.2
+    - _RimPower: 8
     - _RoomHeight: 3
     - _Scroll: 0.25
     - _SliverChance: 0.25
@@ -168,6 +182,9 @@ Material:
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 1
     - _SoftEdge: 0.035
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _Speed: 0.35
     - _SrcBlend: 1
@@ -186,24 +203,30 @@ Material:
     - _VerticalVignette: 0.25
     - _Vignette: 0.653
     - _WorkflowMode: 1
+    - _ZTestMode: 8
     - _ZWrite: 1
     m_Colors:
     - _Bar: {r: 1, g: 0.7, b: 0.19999996, a: 1}
     - _BarA: {r: 0, g: 0.7594938, b: 1, a: 1}
     - _BarB: {r: 0.95, g: 0.55, b: 1, a: 1}
     - _Base: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 1, g: 0.026433025, b: 0, a: 1}
+    - _BaseColor: {r: 0.20754719, g: 0.016838718, b: 0.16142654, a: 1}
     - _BgColor: {r: 0, g: 0, b: 0, a: 1}
+    - _BodyColor: {r: 0, g: 0, b: 0, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.545098, g: 0.5411765, b: 0.94117653, a: 1}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _EdgeColor: {r: 0, g: 1, b: 1, a: 1}
     - _EdgeTint: {r: 1, g: 0.052643016, b: 0, a: 1}
     - _EmissionColor: {r: 0.2581829, g: 0.25415218, b: 0.87136734, a: 1}
     - _EmitColor: {r: 0.7, g: 0.9, b: 1.2, a: 1}
-    - _GlossTint: {r: 0.11999995, g: 0.13999996, b: 0.19999996, a: 1}
+    - _GlossTint: {r: 0.061875466, g: 0.038483426, b: 0.08679241, a: 1}
     - _GridColor: {r: 1, g: 1, b: 1, a: 1}
     - _Horizon: {r: 0.19999996, g: 1, b: 1, a: 1}
     - _LineColor: {r: 0.09999997, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _PulseCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Stripe: {r: 1, g: 0.29999998, b: 0.9, a: 1}
     - _TileBase: {r: 0, g: 0, b: 0, a: 1}
