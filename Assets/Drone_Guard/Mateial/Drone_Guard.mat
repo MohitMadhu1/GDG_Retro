@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2099264931265978288
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Drone_Guard
+  m_Shader: {fileID: 4800000, guid: c611cf437f4f5274a8b836b217c99aab, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  - _METALLICGLOSSMAP
+  - _METALLICSPECGLOSSMAP
+  - _NORMALMAP
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 5077a8b27950f584da16237d5a603465, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: dcdd5e899673b004c9283aea696a4308, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 578d51efa4c69fe44918d4f1f093c0dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7dee460757f3634479d08a40dd19cde5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 66437def41880b942aee7db80a4d5ee8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AccelPow: 2.2
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _AngleDeg: 35
+    - _Bars: 22
+    - _Bevel: 0.12
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
+    - _CapRound: 0.3
+    - _CellSize: 3
+    - _CheckerAmt: 0.054
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _CornerBoost: 0.6
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _Density: 22
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DotDensity: 0.25
+    - _DotSize: 0.02
+    - _DotSoft: 0.02
+    - _DropRate: 0.8
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EdgeWidth: 0.013
+    - _EmissionStrength: 46
+    - _EmitStrength: 9.18
+    - _EnvironmentReflections: 1
+    - _FresnelPower: 4
+    - _Gap: 0.2
+    - _GapWidth: 0.32
+    - _GlossMapScale: 1
+    - _GlossStrength: 0.55
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Glow: 1.4
+    - _GlowWidth: 0
+    - _GridTiling: 1.25
+    - _HaloIntensity: 2
+    - _HeadBoost: 1.77
+    - _HeightNoise: 1
+    - _Intensity: 2.2
+    - _LineIntensity: 2
+    - _LineWidth: 0.01
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAmt: 0.15
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PulseAmp: 1.2
+    - _PulseAmt: 0.3
+    - _PulseHz: 0.6
+    - _PulseMode: 0
+    - _PulsePeriod: 8
+    - _PulseSpeed: 1.1
+    - _PulseWidth: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RimPower: 3.2
+    - _RoomHeight: 3
+    - _Scroll: 0.25
+    - _SliverChance: 0.25
+    - _SliverMax: 0.28
+    - _SliverMin: 0.1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 1
+    - _SoftEdge: 0.035
+    - _SpecularHighlights: 1
+    - _Speed: 0.35
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _StarDensity: 0.15
+    - _StarIntensity: 0.6
+    - _StripeWidth: 0.18
+    - _Surface: 0
+    - _Thickness: 0.05
+    - _TopDots: 1
+    - _TopGlow: 0.12
+    - _TrailLen: 0.42
+    - _TrailSoft: 0.03
+    - _UVSec: 0
+    - _UseGradient: 1
+    - _VerticalVignette: 0.25
+    - _Vignette: 0.653
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _Bar: {r: 1, g: 0.7, b: 0.19999996, a: 1}
+    - _BarA: {r: 0, g: 0.7594938, b: 1, a: 1}
+    - _BarB: {r: 0.95, g: 0.55, b: 1, a: 1}
+    - _Base: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 0.026433025, b: 0, a: 1}
+    - _BgColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.545098, g: 0.5411765, b: 0.94117653, a: 1}
+    - _EdgeColor: {r: 0, g: 1, b: 1, a: 1}
+    - _EdgeTint: {r: 1, g: 0.052643016, b: 0, a: 1}
+    - _EmissionColor: {r: 0.2581829, g: 0.25415218, b: 0.87136734, a: 1}
+    - _EmitColor: {r: 0.7, g: 0.9, b: 1.2, a: 1}
+    - _GlossTint: {r: 0.11999995, g: 0.13999996, b: 0.19999996, a: 1}
+    - _GridColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Horizon: {r: 0.19999996, g: 1, b: 1, a: 1}
+    - _LineColor: {r: 0.09999997, g: 1, b: 1, a: 1}
+    - _PulseCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Stripe: {r: 1, g: 0.29999998, b: 0.9, a: 1}
+    - _TileBase: {r: 0, g: 0, b: 0, a: 1}
+    - _Tint: {r: 1, g: 0.39999998, b: 1, a: 1}
+    - _Top: {r: 0.02, g: 0.049999982, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
