@@ -1,80 +1,70 @@
-# 🕶️✨ NEON ARENA — IMMERSIVE CYBER VR ✨🕶️
-
-> **Virtual Reality Project**  
-> *Retro-Cyber World built in Unity — glowing grids, neon glyphs, and a hidden secret key...*  
+# 🌐🕶 NEON ARENA VR — RETRO-CYBER IMMERSION 🕶🌐
+*Step into a glowing cyber world where neon grids, glyphs, and secrets collide...*  
 
 ---
 
-## 🎯 Objective
-Create a **virtual reality environment** in Unity featuring **retro-cyber aesthetics**:  
-🟣 Neon grids  
-💠 Glowing glyphs  
-💿 Cyberpunk ambience  
-👾 A hidden **secret key** revealed through interaction  
+## 🎯 Experience
+Enter a **virtual reality arena** built in Unity, inspired by retro cyberpunk aesthetics. Explore an atmospheric grid-world where interactive glyphs and glowing drones guide you to uncover a **hidden key** that unlocks the final surprise.  
 
 ---
 
-## 🛠 Features
-- ⚡ **Unity XR Toolkit** → VR hand-tracking & poke gestures  
-- 🌐 **Retro-Cyber Visuals** → neon grids, scrolling code walls, black-body + neon outline shader  
-- 🔮 **Immersion** → Bloom, Vignette, Chromatic Aberration, Cyberpunk soundtrack  
-- 👁 **Interactive Glyphs** → gaze at glowing glyphs for 3 seconds to destroy  
-- 🗝 **Secret Key** → discover the glitch glyph to unlock: **“GOBLIN MACHINE!!!”**  
+## ✨ Key Highlights
+- 🖐 **VR Interactions** → Hand-tracking + poke gestures via Unity XR Toolkit  
+- 🌌 **Stylized Cyber Ambience** → Neon grids, scrolling glyph curtains, emissive shaders  
+- 🎧 **Immersion Effects** → Bloom, vignette, chromatic aberration, synthwave ambience  
+- 🔮 **Glyph Gameplay** → Stare at glyphs for 3 seconds to destroy them  
+- 🗝 **Hidden Mechanic** → Discover the glitch glyph to reveal **“GOBLIN MACHINE!!!”**  
 
 ---
 
-## 🖼 Visual Elements
-- 🟩 **Neon Grid Floor/Ceiling** → pulsing emissive shader  
-- 🟪 **Matrix Data-Rain Walls** → UV-scrolled glyph curtains  
-- 🟥 **Black Body + Neon Outline** → glowing drones/objects  
-- 🟦 **Retro UI** → TextMeshPro start/teaser/win screens  
-- 🟨 **Secret Glyph** → pulsing green cube hidden on walls  
+## 🎨 Visual Design
+- 🟦 **Arena Grid** → Pulsing emissive shader floor & ceiling  
+- 🟩 **Matrix-Style Walls** → Animated UV-scrolling glyph rain  
+- 🟥 **Glowing Drones & Objects** → Black-body shader with neon outlines  
+- 🟨 **Retro Interface** → TextMeshPro screens for intro, teaser, and win state  
+- 🟪 **Glitch Glyph** → A secret cube glowing green among the walls  
 
 ---
 
-
-<div align="center">
-  <a href="https://youtu.be/your-demo-link" target="_blank">
-    <h1>🎥 <b><i>WATCH DEMO VIDEO</i></b> 🎥</h1>
-  </a>
-</div>
+[![Watch Demo](https://img.youtube.com/vi/your-demo-link/hqdefault.jpg)](https://youtu.be/your-demo-link)
 
 ---
 
-## 📜 Core Scripts
+## 🧩 Core Components
 
-| Script Name                | Purpose                                                                 |
-|-----------------------------|-------------------------------------------------------------------------|
-| **RoomBuilder_TronShinyMatrix.cs** | Main controller: builds arena, handles start → teaser → game → win flow |
-| **GlyphWallSpawner.cs**     | Spawns glowing glyphs on walls, manages timing & placement              |
-| **GazeDestroyGlyph.cs**     | Detects gaze on glyphs (3 sec) → destroys & triggers win event          |
-| **PulseEmission.cs**        | Pulses emissive color over time for glowing neon effect                 |
-| **UVScroller.cs**           | Scrolls UVs to create animated **Matrix code wall** effect              |
-| **AutoDestroyUnscaled.cs**  | Cleans up temporary glyph objects after lifetime expires                 |
-| **Shaders**                 | `BlackBodyNeonOutlineURP.shader`, `NeonTileGridPulseURP.shader`, `ScrollTextCodeURP.shader` |
-
----
-
-## 📦 Technologies
-- Unity **2022 LTS** + **URP (Universal Render Pipeline)**  
-- **XR Interaction Toolkit** (VR hands, poke gesture start)  
-- **TextMeshPro** (retro styled text)  
-- **Custom HLSL Shaders** (neon outlines, pulsing grids, scrolling code)  
-- **PostFX Volume** → Bloom, Vignette, Chromatic Aberration  
+| Script | Role |
+|--------|------|
+| `RoomBuilder_TronShinyMatrix.cs` | Handles arena build, game state flow (intro → teaser → gameplay → win) |
+| `GlyphWallSpawner.cs` | Spawns glyphs dynamically on walls with timing control |
+| `GazeDestroyGlyph.cs` | Detects 3s gaze input → destroys glyphs / triggers events |
+| `PulseEmission.cs` | Drives glowing emission pulse over time |
+| `UVScroller.cs` | Creates continuous Matrix-style wall scroll effect |
+| `AutoDestroyUnscaled.cs` | Cleans up temporary glyphs / objects |
+| **Custom Shaders** | Neon grid pulse, glowing outlines, scrolling text shaders |
 
 ---
 
-## 🚀 How to Play
-1. Clone/download project  
-2. Open in **Unity 2022.3+ (URP enabled, XR plugins on)**  
-3. Connect VR headset (tested: **Meta Quest 2**)  
-4. Open scene: `NeonArena.unity`  
-5. Experience flow:  
-   - 👉 **Poke gesture** or `Space` → Start teaser countdown  
-   - 👁 **Look at glitch glyph** for 3 sec → reveal secret  
-   - 🎉 Win screen: **“GOBLIN MACHINE!!!”**  
+## 🛠 Tech Stack
+- **Unity 2022.3 LTS** with **URP**  
+- **XR Interaction Toolkit** → poke, gaze, hand-tracking  
+- **TextMeshPro** → retro UI elements  
+- **Custom URP Shaders** → HLSL neon grids, outlines, glyph scroll  
+- **Post-Processing** → Bloom, chromatic aberration, vignette  
 
 ---
 
-## 🔑 Secret Key  
-*Hint: It pulses green. Look at it for 3 seconds to unlock...*  
+## 🎮 How to Play
+1. Clone/download this repository  
+2. Open in **Unity 2022.3+** (ensure URP + XR plugins installed)  
+3. Connect your **VR headset** (tested on Meta Quest 2)  
+4. Open the scene: `NeonArena.unity`  
+5. Gameplay loop:  
+   - 👉 Perform poke gesture (or press `Space`) to start teaser  
+   - 👁 Focus gaze on glyphs to destroy them (3s hold)  
+   - 🟩 Find the pulsing green glitch glyph  
+   - 🎉 Unlock the **secret ending: “GOBLIN MACHINE!!!”**  
+
+---
+
+## 🗝 Secret Tip
+Look for the **green pulsing glyph** hidden among the walls... it holds the key.  
