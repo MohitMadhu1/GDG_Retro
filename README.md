@@ -26,7 +26,8 @@ Enter a **virtual reality arena** built in Unity, inspired by retro cyberpunk ae
 
 ---
 
-[![Watch Demo](https://img.youtube.com/vi/your-demo-link/hqdefault.jpg)](https://youtu.be/your-demo-link)
+[![Watch Demo](https://img.youtube.com/vi/VdULRo8oNRg/hqdefault.jpg)](https://youtu.be/VdULRo8oNRg)
+
 
 ---
 
