@@ -25,7 +25,7 @@ Enter a **virtual reality arena** built in Unity, inspired by retro cyberpunk ae
 - 🟪 **Glitch Glyph** → A secret cube glowing green among the walls  
 
 ---
-
+## 🎮 Demo Gameplay
 [![Watch Demo](https://img.youtube.com/vi/VdULRo8oNRg/hqdefault.jpg)](https://youtu.be/VdULRo8oNRg)
 
 
