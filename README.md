@@ -68,8 +68,4 @@ Create a **virtual reality environment** in Unity featuring **retro-cyber aesthe
 ---
 
 ## 🔑 Secret Key  
-
-Discover the **glitch glyph** hidden in the neon walls...  
-
-![Secret Glyph Preview](Assets/Audio/Goblin_Machine_card_render (1).png)  
 *Hint: It pulses green. Look at it for 3 seconds to unlock...*  
